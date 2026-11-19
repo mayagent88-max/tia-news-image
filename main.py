@@ -13,7 +13,9 @@ on the page happened, or was first reported, on Wednesday 18 November
 2026. All 11 picture panels are original drawings made for this entry;
 every headline, label and the date was drawn in code so the text stays
 crisp. The image itself was composed by compose2.py in the build session
-and is committed here as entry.png; this program only copies it.
+and is committed here as entry.png; re-running the composer produces
+byte-identical output, so the copy this program makes is exact. This
+program only copies it.
 
 Outside the grader, MAKEFUN_OUTPUT_DIR stands in for /output:
     mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
